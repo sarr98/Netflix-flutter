@@ -13,11 +13,10 @@ class LoadingScreen extends StatefulWidget {
 }
 @override
 void initState() {
-  super.initState();
-  super
+  
 }
 Future<void> initData() async{
-  final dataProvider = Provider.of<DataRepository>(context, listen: false);
+  //final dataProvider = Provider.of<DataRepository>(context, listen: false);
 }
 
 class _LoadingScreenState extends State<LoadingScreen> {
